@@ -1,0 +1,6 @@
+version: '3'
+services:
+  gps-streaming:
+    image: lmao1415/fish-kafka-gps-python
+    ports:
+        - "8010:8010"
